@@ -3,6 +3,7 @@ import './App.css';
 import UseState from './components/UseState';
 import UseStateCounterTwo from './components/UseStateCounterTwo';
 import HookCounterThree from './components/HookCounterThree';
+import YouHaveClicked from './components/YouHaveClicked';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <UseState />
         <UseStateCounterTwo />
         <HookCounterThree />
+        <YouHaveClicked/>
       </header>
     </div>
   );
